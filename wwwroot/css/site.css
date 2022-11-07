@@ -1,0 +1,91 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+* {
+    box-sizing: border-box ;
+   margin-bottom: 60px;
+    background-image: url("../image/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img {
+    max-width:20%;
+    max-height: 20%;
+}
+.flex-container {
+    display: flex;
+    padding: 10px;
+}
+.writings{
+   margin-left: 10%;
+    justify-content:space-around;
+
+}
+.star{
+    justify-items:flex-end;
+    align-items:center;
+    align-content:center;
+    justify-content:space-evenly;
+}
+.ability-table {
+    
+}
+table, th, td {
+    border: 1px solid;
+}
+
+
+
+.container {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.navbar1 a{
+       
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: #000;
+}
+.navbar1 :hover {
+    background-color: #f00;
+    border-radius: 25px;
+}
+
+
+
+.navbar1 a:hover {
+    color: #fff;
+}
+.EnUst {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+h1,h2,h3,h4,h5{
+
+    text-align:center;
+}
+.writings{
+
+    justify-items:center;
+}
